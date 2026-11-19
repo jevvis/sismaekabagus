@@ -61,7 +61,7 @@ export default function Hero() {
       {/* Versi HP: sapaan + nama di antara kata besar dan kepala foto */}
       <div className="hero-anim absolute inset-x-0 top-[calc(11svh+8.5rem)] z-20 md:hidden text-center pointer-events-none px-4" style={{ '--d': '1000ms' } as React.CSSProperties}>
         <p className="font-script text-2xl font-bold text-emerald-600 dark:text-emerald-400 leading-none">{t('hero.hey')}</p>
-        <h1 className="text-2xl font-bold tracking-tight text-[var(--foreground)]">apt. Sisma Eka Bagus Rama Putra, S.Farm.</h1>
+        <h1 className="text-xl sm:text-2xl font-bold tracking-tight leading-tight text-[var(--foreground)]">apt. Sisma Eka Bagus Rama Putra, S.Farm.</h1>
       </div>
 
       {/* Keterangan kecil kiri-bawah */}
@@ -160,7 +160,7 @@ export default function Hero() {
             <img
               src="/profile.png"
               alt="Sisma Eka Bagus Rama Putra"
-              className={`w-full h-auto max-h-[62svh] md:max-h-[82vh] object-contain transition-all duration-500 ${
+              className={`w-full h-auto max-h-[52svh] md:max-h-[82vh] object-contain transition-all duration-500 ${
                 isHovered ? 'brightness-105 contrast-105' : 'brightness-100'
               }`}
               style={{
